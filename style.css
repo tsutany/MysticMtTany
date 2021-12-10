@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@1&family=Meie+Script&family=New+Rocker&family=Roboto&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+nav{
+
+    background-color: rgb(213, 166, 129);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+
+nav>ul{
+    display: flex;
+flex-direction: row;
+color: rgb(56, 51, 29);
+list-style-type: none;
+}
+
+
+nav> ul > li{
+    margin: 20px;
+}
+
+#Que-es-Mystic-Messenger{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(241, 212, 176);
+    color: black;
+   
+
+}
+
+#Que-es-Mystic-Messenger> div{
+    width: 450px;
+font-size: 15pt;
+margin: auto;
+}
+
+#Que-es-Mystic-Messenger> div > h1{
+font-family: 'Lobster', cursive !important;
+}
+
+
+#Que-es-Mystic-Messenger> img{
+    width: 30%;
+    margin: auto;
+}
+iframe{
+    margin: 110px;
+}
